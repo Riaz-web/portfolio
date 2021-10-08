@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.name-heighlight{
+    color: orange;
+}
+.lefts{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.lefts img{
+    width: 100%;
+}
+.top-b{
+    background-image: url("images/top-banner.png");
+    
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.linkbtton{
+    margin-top: 10px;
+    text-decoration: none;
+    background-image:linear-gradient(45deg,lightSalmon, tomato );
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.last-b{
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+}
+.last-b img{
+    width: 100%;
+}
+.last-bs{
+    float: left;
+    width: 40%;
+}
+.down{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.leftsn{
+    width: 40%;
+    float: left;
+    margin: 2%;
+}
+.exps{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+    height: 50%;
+    background-color: white;
+}
+
+#fulls{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#boby{
+  border-left: 7px solid;
+  border-image:  linear-gradient(180deg,blue, cyan);
+  border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
